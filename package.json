@@ -1,0 +1,14 @@
+{
+  "name": "minimalist-portfolio-website",
+  "version": "1.0.0",
+  "description": "![Design preview for the Minimalist portfolio website coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss:css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

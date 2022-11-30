@@ -1,0 +1,301 @@
+/* Project Page */
+
+.project__img--ip-address-tracker-1 {
+  background-image: url(images/portfolio/ip-address-tracker-preview-1@2x.jpg)
+}
+
+.project__img--ip-address-tracker-2 {
+  background-image: url(images/portfolio/ip-address-tracker-preview-2@2x.jpg);
+}
+
+
+.project__img--bookmark-1 {
+  background-image: url(images/portfolio/bookmark-preview-1@2x.jpg)
+}
+
+.project__img--bookmark-2 {
+  background-image: url(images/portfolio/bookmark-preview-2@2x.jpg);
+}
+
+
+.project__img--insure-1 {
+  background-image: url(images/portfolio/insure-preview-1@2x.jpg)
+}
+
+.project__img--insure-2 {
+  background-image: url(images/portfolio/insure-preview-2@2x.jpg);
+}
+
+
+.project__img--fylo-1 {
+  background-image: url(images/portfolio/fylo-preview-1@2x.jpg)
+}
+
+.project__img--fylo-2 {
+  background-image: url(images/portfolio/fylo-preview-2@2x.jpg);
+}
+/*Project Toggle*/
+
+.project__toggle--main {
+    border-top: grey 1px solid;
+border-bottom: grey 1px solid;
+padding: 3rem;
+}
+
+.project__toggle{
+  justify-content: space-between;
+}
+.project__toggle--link {
+  text-decoration: none;
+  align-items: center;
+}
+.project__toggle--arrow {
+  width: 20px;
+  height: 32px;
+}
+
+.project__hero {
+   position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+}
+
+
+.project__grid {
+  grid-column-gap: 5rem;
+display: grid;
+margin: auto;
+grid-template-areas: "left-1 right-1" "left-2 right-2";
+}
+
+.project__title {
+  grid-area: left-1;
+display: flex;
+align-items: flex-start;
+padding-top: 2rem;
+}
+
+.project__description {
+ grid-area: left-1;
+ display: flex;
+ align-items: flex-end;
+}
+
+
+.project__preview {
+ grid-area: right-2;
+}
+
+.project__summary {
+    grid-area: right-1;
+
+}
+
+.project__img {
+  height: 400px;
+  position: cover;
+  background-size: cover;
+  position: relative;
+  height: 40vh;
+  width: 100%;
+}
+
+.project__hero--ip-address-tracker {
+  background-image: url(images/portfolio/ip-address-tracker.jpg)
+}
+.project__hero--bookmark {
+  background-image: url(images/portfolio/bookmark.jpg)
+}
+.project__hero--insure {
+  background-image: url(images/portfolio/insure.jpg)
+}
+.project__hero--fylo {
+  background-image: url(images/portfolio/fylo.jpg)
+}
+
+.project__grid {
+  grid-template-columns: 1fr 1fr;
+grid-template-areas: "left-1 right-1" "s s" "p p";
+column-gap: 5rem;
+}
+
+.project__title {
+  grid-area: left-1;
+display: flex;
+align-items: flex-start;
+padding-top: 0; 
+}
+
+.project__description {
+ grid-area: right-1;
+ padding-top: 0;
+ align-self: baseline;
+}
+
+.project__summary {
+    grid-area: s;
+
+}
+
+.project__preview {
+ grid-area: p;
+}
+
+.project__type {
+ flex-direction: column;
+grid-area: left-1;
+ display: flex;
+ align-content: flex-end;
+ column-gap: 5rem;
+ padding-top: 5rem;
+}
+
+.project__img {
+  
+  height: 90vh;
+
+}
+
+.project__hero--ip-address-tracker {
+  background-image: url(images/portfolio/ip-address-tracker.png)
+
+}
+
+.project__img--ip-address-tracker-1 {
+  background-image: url(images/portfolio/ip-address-tracker.png
+  
+}
+
+.project__img--ip-address-tracker-2 {
+  background-image: url(images/portolio/ip-address-tracker-preview-2@2x.jpg);
+}
+
+.project__hero--bookmark {
+  background-image: url(images/portolio/bookmark.jpg)
+
+}
+
+.project__img--bookmark-1 {
+  background-image: url(images/portolio/bookmark-preview-1@2x.jpg)
+  
+}
+
+.project__img--bookmark-2 {
+  background-image: url(images/portolio/bookmark-preview-2@2x.jpg);
+}
+
+.project__hero--insure {
+  background-image: url(images/portolio/insure.jpg)
+
+}
+
+.project__img--insure-1 {
+  background-image: url(images/portolio/insure-preview-1@2x.jpg)
+  
+}
+
+.project__img--insure-2 {
+  background-image: url(images/portolio/insure-preview-2@2x.jpg);
+}
+
+.project__hero--fylo {
+  background-image: url(images/portolio/fylo.jpg)
+
+}
+
+.project__img--fylo-1 {
+  background-image: url(images/portolio/fylo-preview-1@2x.jpg)
+  
+}
+
+.project__img--fylo-2 {
+  background-image: url(images/portolio/fylo-preview-2@2x.jpg);
+}
+
+}
+
+@media (max-width: 900px) {
+    /* Project Page */
+  .project__grid {
+    grid-template-columns: 1fr;
+ grid-template-areas: "a" "b" "c" "d" "e" "f";
+  }
+
+  .project__title {
+grid-area: a;  }
+
+  .project__description {
+grid-area: b;  }
+
+  .project__type {
+ flex-direction: column;
+grid-area: c;
+ display: flex;
+
+}
+
+  .project__summary {
+grid-area: e;  }
+
+  .project__preview {
+grid-area: f;  
+}
+
+  .project__hero--ip-address-tracker {
+  background-image: url(images/detail/mobile/image-ip-address-tracker.png)
+
+}
+
+.project__img--ip-address-tracker-1 {
+  background-image: url(images/detail/mobile/image-ip-address-tracker-preview-1@2x.png)
+  
+}
+
+.project__img--ip-address-tracker-2 {
+  background-image: url(images/detail/mobile/image-ip-address-tracker-preview-2@2x.png);
+}
+
+  .project__hero--sunnyside {
+  background-image: url(images/detail/mobile/image-sunnyside.png)
+
+}
+
+.project__img--sunnyside-1 {
+  background-image: url(images/detail/mobile/image-sunnyside-preview-1@2x.png)
+  
+}
+
+.project__img--sunnyside-2 {
+  background-image: url(images/detail/mobile/image-sunnyside-preview-2@2x.png);
+}
+
+  .project__hero--faq-accordian {
+  background-image: url(images/detail/mobile/image-faq-accordian.png)
+
+}
+
+.project__img--faq-accordian-1 {
+  background-image: url(images/detail/mobile/image-faq-accordian-preview-1@2x.png)
+  
+}
+
+.project__img--faq-accordian-2 {
+  background-image: url(images/detail/mobile/image-faq-accordian-preview-2@2x.png);
+}
+
+  .project__hero--intro-with-component-signup {
+  background-image: url(images/detail/mobile/image-intro-with-component-signup.png)
+
+}
+
+.project__img--intro-with-component-signup-1 {
+  background-image: url(images/detail/mobile/image-intro-with-component-signup-preview-1@2x.png)
+  
+}
+
+.project__img--intro-with-component-signup-2 {
+  background-image: url(images/detail/mobile/image-intro-with-component-signup-preview-2@2x.png);
+}
+}
