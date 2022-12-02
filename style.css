@@ -325,7 +325,7 @@ ul {
   padding-inline: 1rem;
 }
 
-.portfolio__github {
+.bg-icon-dark {
   align-self: center;
   margin-top: 10px;
   font-size: 45px;
@@ -381,6 +381,16 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about__tools--list {
+  list-style: none;
+  justify-content: space-around;
+  padding: 32px 0;
+}
+
+.about__tools--icon {
+  width: 50px;
 }
 
 .col__txt {
@@ -567,7 +577,7 @@ footer {
     overflow: hidden;
     background-size: cover;
   }
-  
+
   /* .portfolio__img--ip-address-tracker {
     grid-area: img-1;
     background-image: url(./images/portfolio/ip-address-tracker-mobile.png);
@@ -698,7 +708,7 @@ footer {
 
   .grid__about {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 60vh 1fr;
   }
 
   .list {
@@ -732,7 +742,7 @@ footer {
     grid-area: img-1;
     width: 100%;
   } */
-  
+
   .portfolio__img--sunnyside {
     grid-area: img-2;
     width: 100%;
