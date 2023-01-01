@@ -265,11 +265,17 @@ hr {
 
 a {
   text-decoration: none;
+  color: hsl(var(--clr-dark));
 }
 
 a:hover,
 a:focus {
   color: hsl(var(--clr-slightly-desaturated-cyan));
+}
+
+a:visited {
+  text-decoration: none;
+  color: ;
 }
 
 .btn {
@@ -456,6 +462,10 @@ footer {
   background-repeat: no-repeat;
 }
 
+.portfolio__project--frame {
+  height: 80vh;
+  border: none;
+}
 /* .portfolio__img--ip-address-tracker {
   grid-area: img-1;
   background-image: url(./images/portfolio/ip-address-tracker.png);
