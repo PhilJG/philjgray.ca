@@ -275,7 +275,6 @@ a:focus {
 
 a:visited {
   text-decoration: none;
-  color: ;
 }
 
 .btn {
@@ -352,6 +351,10 @@ ul {
 .hidden {
   display: none;
 }
+
+.fadeIn {
+  animation: fadeIn 1s;
+}
 /* Hero */
 
 .hero {
@@ -363,9 +366,10 @@ ul {
 }
 
 .home__hero {
-  background-image: url(./images/homepage/pakata-goh-EJMTKCZ00I0-unsplash.jpg);
+  background-image: url(./images/homepage/image-hero.jpg);
   grid-template-columns: 3fr repeat(5, 1fr);
   grid-template-rows: 1fr repeat(2, 2fr);
+  animation: fadeBackground 6s;
 }
 .hero__txt {
   padding: 1rem;
@@ -383,7 +387,7 @@ ul {
   grid-template-columns: 1fr 1fr;
 }
 .headshot__img {
-  background-image: url(./images/homepage/image-homepage-profile.jpg);
+  background-image: url(./images/homepage/image-profile.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -471,23 +475,55 @@ footer {
   background-image: url(./images/portfolio/ip-address-tracker.png);
 } */
 
+.grid__area-img--1 {
+grid-area: img-1;
+}
+
+.grid__area-img--2 {
+  grid-area: img-2;
+}
+
+.grid__area-img--3 {
+  grid-area: img-3;
+}
+.grid__area-img--4 {
+  grid-area: img-4;
+}
+
+.grid__area-txt--1 {
+  grid-area: txt-1;
+}
+
+.grid__area-txt--2 {
+  grid-area: txt-2;
+}
+
+.grid__area-txt--3 {
+  grid-area: txt-3;
+}
+
+
+.grid__area-txt--4 {
+  grid-area: txt-4;
+}
+
+.portfolio__img--baybayin-app {
+  background-image: url(./images/portfolio/baybayin-app.png);
+}
+
 .portfolio__img--random-advice-generator {
-  grid-area: img-1;
   background-image: url(./images/portfolio/random-advice-generator.png);
 }
 
 .portfolio__img--sunnyside {
-  grid-area: img-2;
   background-image: url(./images/portfolio/sunnyside.png);
 }
 
 .portfolio__img--faq-accordian {
-  grid-area: img-3;
   background-image: url(./images/portfolio/faq-accordian.png);
 }
 
 .portfolio__img--intro-with-component-signup {
-  grid-area: img-4;
   background-image: url(./images/portfolio/intro-with-component-signup.png);
 }
 
@@ -498,24 +534,20 @@ footer {
 } */
 
 .portfolio__content--random-advice-generator {
-  grid-area: txt-1;
   border-top: 1px solid hsl(var(--clr-very-light-grey));
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
 }
 
 .portfolio__content--sunnyside {
-  grid-area: txt-2;
   border-top: 1px solid hsl(var(--clr-very-light-grey));
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
 }
 
 .portfolio__content--faq-accordian {
-  grid-area: txt-3;
   border-top: 1px solid hsl(var(--clr-very-light-grey));
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
 }
 .portfolio__content--intro-with-component-signup {
-  grid-area: txt-4;
   border-top: 1px solid hsl(var(--clr-very-light-grey));
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
 }
@@ -599,38 +631,39 @@ footer {
   } */
 
   .portfolio__img--random-advice-generator {
-    grid-area: img-1;
+    
   }
 
   .portfolio__content--random-advice-generator {
-    grid-area: txt-1;
+    
     border-top: none;
   }
 
   .portfolio__content--sunnyside {
-    grid-area: txt-2;
+    
     border-top: none;
   }
 
   .portfolio__img--sunnyside {
-    grid-area: img-2;
+    
     background-image: url(./images/portfolio/sunnyside-mobile.png);
   }
 
   .portfolio__img--faq-accordian {
-    grid-area: img-3;
+    
     background-image: url(./images/portfolio/faq-accordian-mobile.png);
   }
+  
   .portfolio__content--faq-accordian {
-    grid-area: txt-3;
+    
     border-top: none;
   }
   .portfolio__content--intro-with-component-signup {
-    grid-area: txt-4;
+    
     border-top: none;
   }
   .portfolio__img--intro-with-component-signup {
-    grid-area: img-4;
+    
     background-image: url(./images/portfolio/intro-with-component-signup-mobile.png);
   }
 

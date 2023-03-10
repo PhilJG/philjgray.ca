@@ -13,7 +13,17 @@ const formButton = document.querySelector(".contact__input--btn");
 const emailInput = document.querySelector(".contact__input--email");
 const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
+//Images
+const heroImage = document.querySelector('.home__hero');
+
 // Function
+
+const fadeInImage = function(el, img) {
+  el.src = img;
+  el.addEventListener('load', function(){
+    el.classList.add('fadeIn')
+  });
+}
 
 //Nav Toggle
 
