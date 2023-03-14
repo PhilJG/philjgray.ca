@@ -366,7 +366,7 @@ ul {
 }
 
 .home__hero {
-  background-image: url(./images/homepage/image-hero.jpg);
+  background-image: url(./images/homepage/image-hero.webp);
   grid-template-columns: 3fr repeat(5, 1fr);
   grid-template-rows: 1fr repeat(2, 2fr);
   animation: fadeBackground 6s;
@@ -387,7 +387,7 @@ ul {
   grid-template-columns: 1fr 1fr;
 }
 .headshot__img {
-  background-image: url(./images/homepage/image-profile.jpg);
+  background-image: url(./images/homepage/image-profile.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -469,6 +469,14 @@ footer {
 .portfolio__project--frame {
   height: 80vh;
   border: none;
+}
+
+.portfolio__page--frame {
+  height: 100%;
+  width: 100%;
+  border: none;
+  overflow-y: scroll;
+
 }
 /* .portfolio__img--ip-address-tracker {
   grid-area: img-1;
@@ -630,8 +638,8 @@ grid-area: img-1;
     border-top: none;
   } */
 
-  .portfolio__img--random-advice-generator {
-    
+  .portfolio__img--baybayin-app {
+      background-image: url(./images/portfolio/baybayin-app-mobile.png);
   }
 
   .portfolio__content--random-advice-generator {
