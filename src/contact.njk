@@ -1,0 +1,53 @@
+---
+title: "philjgray.ca | Contact"
+layout: "base.njk"
+---
+
+ <section class="contact grid container">
+      <h1 class="contact__h ff-serif fs-700">Get in Touch</h1>
+      <div class="contact__content">
+        <p>
+          I’d love to hear about what you’re working on and how I could help. 
+          I’m a hard-working, positive and will always
+          approach each task with a sense of purpose and attention to detail.
+          <br>
+          Please do feel free to check out my online profiles below and get in
+          touch using the form.
+        </p>
+             <ul class="nav__list flex">
+          <li >
+            <a class="bg-icon-dark  text-dark" href="https://github.com/PhilJG">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li >
+            <a class="bg-icon-dark  text-dark" href="https://www.linkedin.com/in/phil-j-gray/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+              </div>
+      </section>
+    <section class="contact grid container">
+      <div class="col">
+        <h1 class="contact__h ff-serif fs-700">Contact</h1>
+      </div>
+      <div class="col">
+        <form action="https://formsubmit.co/me@philjgray.ca" method="POST"class="form">
+          <label for="">Name</label>
+          <br />
+          <input class="contact__input contact__input--name" placeholder="Jane Appleseed" type="text" name="name" requried />
+          <br />
+          <label for="">Email</label>
+          <br />
+          <input class="contact__input contact__input--email" placeholder="example@email.com" type="email" name="email" required />
+          <br />
+          <label for="">Message</label>
+          <br />
+          <textarea class="contact__input contact__input--message" placeholder="How can I help" type="text" name="message" required  /></textarea>
+          <input type="hidden" name="_next" value="https://philjgray.ca/thank-you.html">
+          <br />
+          <button type="submit" class="btn__normal--primary contact__input--btn">Send Message</button>
+        </form>
+      </div>
+    </section>
