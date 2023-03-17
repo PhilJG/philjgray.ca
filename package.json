@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilJG/philjgray.ca.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/PhilJG/philjgray.ca/issues"
+  },
+  "homepage": "https://github.com/PhilJG/philjgray.ca#readme"
 }

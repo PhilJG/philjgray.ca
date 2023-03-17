@@ -447,44 +447,9 @@ footer {
   fill: hsl(var(--clr-slightly-desaturated-cyan));
 }
 
-/* Portfolio-Desktop */
-
-.portfolio__grid {
-  grid-template-areas:
-    "img-1 txt-1"
-    "txt-2 img-2"
-    "img-3 txt-3"
-    "txt-4 img-4";
-  column-gap: 7rem;
-  display: grid;
-  row-gap: 4rem;
-}
-
-.portfolio__img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.portfolio__project--frame {
-  height: 80vh;
-  border: none;
-}
-
-.portfolio__page--frame {
-  height: 100%;
-  width: 100%;
-  border: none;
-  overflow-y: scroll;
-
-}
-/* .portfolio__img--ip-address-tracker {
-  grid-area: img-1;
-  background-image: url(./images/portfolio/ip-address-tracker.png);
-} */
-
+/* Grid */
 .grid__area-img--1 {
-grid-area: img-1;
+  grid-area: img-1;
 }
 
 .grid__area-img--2 {
@@ -510,10 +475,46 @@ grid-area: img-1;
   grid-area: txt-3;
 }
 
-
 .grid__area-txt--4 {
   grid-area: txt-4;
 }
+
+.grid__img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Portfolio-Desktop */
+
+.grid {
+  grid-template-areas:
+    "img-1 txt-1"
+    "txt-2 img-2"
+    "img-3 txt-3"
+    "txt-4 img-4";
+  column-gap: 7rem;
+  display: grid;
+  row-gap: 4rem;
+}
+
+
+
+.portfolio__project--frame {
+  height: 80vh;
+  border: none;
+}
+
+.portfolio__page--frame {
+  height: 100%;
+  width: 100%;
+  border: none;
+  overflow-y: scroll;
+}
+/* .portfolio__img--ip-address-tracker {
+  grid-area: img-1;
+  background-image: url(./images/portfolio/ip-address-tracker.png);
+} */
 
 .portfolio__img--baybayin-app {
   background-image: url(./images/portfolio/baybayin-app.png);
@@ -560,6 +561,16 @@ grid-area: img-1;
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
 }
 
+/* sunE  */
+.sune__img--operations {
+  background-image: url(./images/sune/sune-operations.jpg);
+}
+.sune__img--brand {
+  background-image: url(./images/sune/sune-brand.jpg);
+}
+.sune__img--marketing {
+  background-image: url(./images/sune/sune-marketing.jpg);
+}
 /* Form */
 
 .contact {
@@ -639,39 +650,32 @@ grid-area: img-1;
   } */
 
   .portfolio__img--baybayin-app {
-      background-image: url(./images/portfolio/baybayin-app-mobile.png);
+    background-image: url(./images/portfolio/baybayin-app-mobile.png);
   }
 
   .portfolio__content--random-advice-generator {
-    
     border-top: none;
   }
 
   .portfolio__content--sunnyside {
-    
     border-top: none;
   }
 
   .portfolio__img--sunnyside {
-    
     background-image: url(./images/portfolio/sunnyside-mobile.png);
   }
 
   .portfolio__img--faq-accordian {
-    
     background-image: url(./images/portfolio/faq-accordian-mobile.png);
   }
-  
+
   .portfolio__content--faq-accordian {
-    
     border-top: none;
   }
   .portfolio__content--intro-with-component-signup {
-    
     border-top: none;
   }
   .portfolio__img--intro-with-component-signup {
-    
     background-image: url(./images/portfolio/intro-with-component-signup-mobile.png);
   }
 
@@ -727,6 +731,7 @@ grid-area: img-1;
     position: absolute;
     top: 90px;
     right: 60px;
+    padding: 8rem 0;
   }
   .nav__link--item {
     padding: 0.5rem;
@@ -776,7 +781,7 @@ grid-area: img-1;
   }
 
   /* Portfolio-Mobile */
-  .portfolio__grid {
+  .grid {
     gap: 69px;
     grid-template-areas:
       "img-1"
