@@ -144,7 +144,8 @@ select {
 .column {
   flex-direction: column;
 }
-.flow > *:where(:not(:first-child)) {
+
+.flow>*:where(:not(:first-child)) {
   margin-top: var(--flow-space, 1rem);
   outline: 1px solid red;
 }
@@ -162,7 +163,8 @@ button {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap; /* added line */
+  white-space: nowrap;
+  /* added line */
   border: 0;
 }
 
@@ -171,9 +173,11 @@ button {
 .bg-white {
   background-color: hsl(var(--clr-light-grey));
 }
+
 .bg-accent {
   background-color: hsl(var(--clr-slightly-desaturated-cyan));
 }
+
 .bg-dark {
   background-color: hsl(var(--clr-dark-blue));
 }
@@ -181,9 +185,11 @@ button {
 .text-dark {
   color: hsl(var(--clr-dark));
 }
+
 .text-accent {
   color: hsl(var(--clr-slightly-desaturated-cyan));
 }
+
 .text-white {
   color: hsl(var(--clr-very-light-grey));
 }
@@ -201,9 +207,11 @@ button {
 .letter-spacing-1 {
   letter-spacing: 4.75px;
 }
+
 .letter-spacing-2 {
   letter-spacing: 2.7px;
 }
+
 .letter-spacing-3 {
   letter-spacing: 2.35px;
 }
@@ -215,24 +223,31 @@ button {
 .fs-900 {
   font-size: var(--fs-900);
 }
+
 .fs-800 {
   font-size: var(--fs-800);
 }
+
 .fs-700 {
   font-size: var(--fs-700);
 }
+
 .fs-600 {
   font-size: var(--fs-600);
 }
+
 .fs-500 {
   font-size: var(--fs-500);
 }
+
 .fs-400 {
   font-size: var(--fs-400);
 }
+
 .fs-300 {
   font-size: var(--fs-300);
 }
+
 .fs-200 {
   font-size: var(--fs-200);
 }
@@ -318,13 +333,16 @@ nav {
 ul {
   padding-left: 0px;
 }
+
 .nav__bar {
   padding: 2rem 4rem;
 }
+
 .nav__list {
   list-style: none;
   z-index: 999;
 }
+
 .nav__link {
   text-decoration: none;
   padding-inline: 1rem;
@@ -355,6 +373,7 @@ ul {
 .fadeIn {
   animation: fadeIn 1s;
 }
+
 /* Hero */
 
 .hero {
@@ -371,6 +390,7 @@ ul {
   grid-template-rows: 1fr repeat(2, 2fr);
   animation: fadeBackground 6s;
 }
+
 .hero__txt {
   padding: 1rem;
   grid-area: 3 / 1 / 4 / 2;
@@ -386,6 +406,7 @@ ul {
 .grid__about {
   grid-template-columns: 1fr 1fr;
 }
+
 .headshot__img {
   background-image: url(./images/homepage/image-profile.webp);
   background-position: center;
@@ -406,6 +427,7 @@ ul {
 .col__txt {
   padding: 2rem 0;
 }
+
 /* Call to Action */
 
 .cta {
@@ -459,6 +481,7 @@ footer {
 .grid__area-img--3 {
   grid-area: img-3;
 }
+
 .grid__area-img--4 {
   grid-area: img-4;
 }
@@ -511,6 +534,7 @@ footer {
   border: none;
   overflow-y: scroll;
 }
+
 /* .portfolio__img--ip-address-tracker {
   grid-area: img-1;
   background-image: url(./images/portfolio/ip-address-tracker.png);
@@ -556,6 +580,7 @@ footer {
   border-top: 1px solid hsl(var(--clr-very-light-grey));
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
 }
+
 .portfolio__content--intro-with-component-signup {
   border-top: 1px solid hsl(var(--clr-very-light-grey));
   border-bottom: 1px solid hsl(var(--clr-very-light-grey));
@@ -565,12 +590,15 @@ footer {
 .sune__img--operations {
   background-image: url(./images/sune/sune-operations.jpg);
 }
+
 .sune__img--brand {
   background-image: url(./images/sune/sune-brand.jpg);
 }
+
 .sune__img--marketing {
   background-image: url(./images/sune/sune-marketing.jpg);
 }
+
 /* Form */
 
 .contact {
@@ -594,13 +622,15 @@ footer {
   outline-style: solid;
 }
 
-.contact__content > ul:nth-child(2) {
+.contact__content>ul:nth-child(2) {
   padding-left: 0px;
 }
 
 .contact__h {
   text-align: right;
 }
+
+
 
 @media (max-width: 900px) {
   .hero {
@@ -672,9 +702,11 @@ footer {
   .portfolio__content--faq-accordian {
     border-top: none;
   }
+
   .portfolio__content--intro-with-component-signup {
     border-top: none;
   }
+
   .portfolio__img--intro-with-component-signup {
     background-image: url(./images/portfolio/intro-with-component-signup-mobile.png);
   }
@@ -733,6 +765,7 @@ footer {
     right: 60px;
     padding: 8rem 0;
   }
+
   .nav__link--item {
     padding: 0.5rem;
   }
@@ -744,6 +777,7 @@ footer {
   .col__content {
     padding: 4rem 0;
   }
+
   .col__img {
     float: end;
   }
@@ -772,6 +806,7 @@ footer {
     align-items: center;
     padding-left: 0px;
   }
+
   .footer__list {
     flex-direction: column;
   }
@@ -803,6 +838,7 @@ footer {
     grid-area: img-2;
     width: 100%;
   }
+
   .portfolio__img--faq-accordian {
     grid-area: img-3;
     width: 100%;
@@ -812,6 +848,7 @@ footer {
     grid-area: img-4;
     width: 100%;
   }
+
   /* .portfolio__content--ip-address-tracker {
     grid-area: txt-1;
   } */
@@ -823,6 +860,7 @@ footer {
   .portfolio__content--faq-accordian {
     grid-area: txt-3;
   }
+
   .portfolio__content--intro-with-component-signup {
     grid-area: txt-4;
   }

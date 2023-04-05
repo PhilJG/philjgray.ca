@@ -1,0 +1,7 @@
+{
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {},
+    "emmet.includeLanguages": {
+        "nunjucks": "html"
+    }
+}

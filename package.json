@@ -4,7 +4,9 @@
   "description": "![Design preview for the Minimalist portfolio website coding challenge](./preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass sass/main.scss:css/main.css"
+    "compile:sass": "sass sass/main.scss:css/main.css",
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/PhilJG/philjgray.ca/issues"
   },
-  "homepage": "https://github.com/PhilJG/philjgray.ca#readme"
+  "homepage": "https://github.com/PhilJG/philjgray.ca#readme",
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.1.0"
+  }
 }

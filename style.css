@@ -483,6 +483,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 500px;
 }
 
 /* Portfolio-Desktop */
@@ -633,8 +634,7 @@ footer {
     gap: 69px;
   }
 
-  .portfolio__img {
-    height: 350px;
+  .grid__img {
     overflow: hidden;
     background-size: cover;
   }
